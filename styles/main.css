@@ -1,0 +1,82 @@
+
+
+body {   
+    background-color: darkorange;
+    margin: 0;
+}
+@media screen and (min-width: 600px) {
+
+body{
+background-color: lavender;
+margin: 25;
+
+}
+}
+
+@media screen and (min-width: 1000px) {
+
+body{
+background-color:rgb(129, 129, 129)
+
+
+
+
+}
+}
+
+
+
+
+
+nav {
+
+display: flex;
+background-color: lightgreen;
+justify-content: space-around;
+height: 35px;
+align-items: center;
+
+
+
+
+
+}
+.box {
+
+    width: 100vw;
+    margin: 0px;
+    height: 70px;
+    background-color: skyblue;
+    text-align:center;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+.box {
+
+width: 70vw;
+margin: 0px;
+height: 50;
+background-color: green;
+
+}
+}
+
+@media screen and (min-width: 400px) {
+
+.box {
+
+width: 100vw;
+margin: 0px;
+height: 30;
+
+
+
+}
+}
+
+
+
+
+
